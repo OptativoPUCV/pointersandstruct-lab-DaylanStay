@@ -130,7 +130,8 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c)
 {
   for(int i = 0; i<2 ; i++)
   {
-    c->datos[i] = (a1 + a2) + (b1 + b2);
+    c->datos[i] = (a1 + a2);
+    
   }
   
 }
